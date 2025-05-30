@@ -15,3 +15,7 @@
 // Quarta etapa 
 
 ## Usando o método Shift e removendo a primeira tarefa no ínicio da lista
+
+// Quinta etapa
+
+## Usando o método includes e verificando se uma tarefa existe 

@@ -34,3 +34,8 @@ console.log("Depois do shift");
 console.table(tarefas);
 
 console.log("Tarefa removida: ", primeiraTarefa);
+
+// Verificando se uma tarefa existe 
+
+console.log(`A lista de tarefas inclui Ir à academia? ${tarefas.includes("Ir à academia")}`);
+
