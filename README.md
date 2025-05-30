@@ -19,3 +19,7 @@
 // Quinta etapa
 
 ## Usando o método includes e verificando se uma tarefa existe 
+
+// Sexta etapa 
+
+## Usando o método join e transformando a lista em string
