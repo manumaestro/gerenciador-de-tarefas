@@ -88,3 +88,8 @@ console.log("Lista de tarefas filtrada (palavras com mais de 15 caracteres):", t
 
 let tarefasOrdenadas = tarefas.sort();
 console.log("Tarefas ordenada:", tarefasOrdenadas);
+
+// Invertendo a Ordem das Tarefas
+
+let tarefasInvertidas = tarefas.reverse();
+console.log("Tarefas invertidas:", tarefasInvertidas);

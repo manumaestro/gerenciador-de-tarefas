@@ -47,3 +47,7 @@
 // Décima segunda etapa 
 
 ## Usando o método sort e ordenando as tarefas
+
+// Décima terceira etapa
+
+## Usando o método reverse e invertendo a ordem das tarefas
