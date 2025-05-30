@@ -59,3 +59,11 @@ console.log(`Parte da lista (índices 2 a 4): ${tarefas.slice(2, 4)}`); // ['Lav
 console.log("Depois do slice");
 console.table(tarefas);
 
+// Alterando a lista
+
+console.log("Alterando a lista");
+let elementoRemovido = tarefas.splice(3, 1);
+console.table(tarefas);
+let alteraElemento = tarefas.splice(3, 0, "Estudar java");
+console.log("Depois do splice");
+console.table(tarefas);

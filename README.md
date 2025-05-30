@@ -30,4 +30,4 @@
 
 // Oitava etapa
 
-# Usando o método splice e alterando a lista
+# Usando o método splice e alterando a lista 
