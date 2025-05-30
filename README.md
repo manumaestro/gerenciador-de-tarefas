@@ -26,4 +26,8 @@
 
 // Sétima etapa
 
-## Usando o método splice e extraindo parte da lista
+## Usando o método slice e extraindo parte da lista
+
+// Oitava etapa
+
+# Usando o método splice e alterando a lista

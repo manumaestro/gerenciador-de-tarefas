@@ -37,7 +37,13 @@ console.log("Tarefa removida: ", primeiraTarefa);
 
 // Verificando se uma tarefa existe 
 
-console.log(`A lista de tarefas inclui Ir à academia? ${tarefas.includes("Ir à academia")}`);
+let verificaTarefa = "Ir à academia"
+if (tarefas.includes(verificaTarefa)) {
+    console.log(`A tarefa ja existe na lista`);
+} else {
+    tarefas.push(verificaTarefa);
+    console.table(tarefas);
+}
 
 // Transformando a Lista em String
 
@@ -47,8 +53,9 @@ console.log("Lista de tarefas como String: ", tarefas.join(", "));
 
 /// Extraindo uma Parte da Lista
 
-console.log("Antes do splice");
+console.log("Extraindo parte da lista");
 console.table(tarefas);
-console.log(`Parte da lista de tarefas (índices 2 a 4): ${tarefas.slice(2, 5)}`); // ['Lavar a louça', 'Comprar mercado', 'Ir à academia',]
-console.log("Depois do splice");
+console.log(`Parte da lista (índices 2 a 4): ${tarefas.slice(2, 4)}`); // ['Lavar a louça', 'Comprar mercado',]
+console.log("Depois do slice");
 console.table(tarefas);
+
