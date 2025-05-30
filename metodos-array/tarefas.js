@@ -76,20 +76,24 @@ console.log("Listas de tarefas combinadas: ", tarefas.concat(tarefas2));
 // Transformando as Tarefas
 
 let transformandoTarefa = tarefas.map(tarefa => "fazer: " + tarefa);
-console.log("Tarefas transformadas: ", transformandoTarefa);
+console.log("Tarefas transformadas: ");
+console.table(transformandoTarefa);
 
 // Filtrando Tarefas
 
 console.log("Tarefas filtradas");
-let tarefasFiltradas = tarefas.filter(palavras => palavras.length > 15);
-console.log("Lista de tarefas filtrada (palavras com mais de 15 caracteres):", tarefasFiltradas);
+let tarefasFiltradas = transformandoTarefa.filter(palavras => palavras.length > 15);
+console.log("Lista de tarefas filtrada (palavras com mais de 15 caracteres):");
+console.table(transformandoTarefa);
 
 //  Ordenando as Tarefas
 
-let tarefasOrdenadas = tarefas.sort();
-console.log("Tarefas ordenada:", tarefasOrdenadas);
+let tarefasOrdenadas = transformandoTarefa.sort();
+console.log("Tarefas ordenadas:");
+console.table(transformandoTarefa);
 
 // Invertendo a Ordem das Tarefas
 
-let tarefasInvertidas = tarefas.reverse();
-console.log("Tarefas invertidas:", tarefasInvertidas);
+let tarefasInvertidas = transformandoTarefa.reverse();
+console.log("Tarefas invertidas:");
+console.table(transformandoTarefa);
