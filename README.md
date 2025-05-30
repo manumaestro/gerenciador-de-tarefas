@@ -31,3 +31,7 @@
 // Oitava etapa
 
 # Usando o método splice e alterando a lista 
+
+// Nona etapa
+
+## Usando o método concat e criando uma nova lista com tarefas adicionais, juntando com a lista original

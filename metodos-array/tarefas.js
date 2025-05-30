@@ -67,3 +67,9 @@ console.table(tarefas);
 let alteraElemento = tarefas.splice(3, 0, "Estudar java");
 console.log("Depois do splice");
 console.table(tarefas);
+
+// Concatenando Tarefas
+
+let tarefas2 = ["Passear com o cachorro", "Dançar Hip-Hop", "Estudar códigos"];
+console.log("Listas de tarefas combinadas: ", tarefas.concat(tarefas2));
+
