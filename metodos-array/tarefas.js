@@ -18,3 +18,11 @@ console.log("Depois do pop");
 console.table(tarefas);
 
 console.log("Tarefa removida: ", tarefaRemovida);
+
+// Adicionando uma nova tarefa no início da lista
+
+tarefas.unshift("Fazer o almoço");
+
+console.log("Depois do unshift");
+console.table(tarefas);
+

@@ -7,3 +7,7 @@
 // Segunda etapa
 
 ## Usando o método pop e removendo a última tarefa do array
+
+// Terceira etapa 
+
+## Usando o método Unshift e adicionando uma nova tarefa no início da lista
