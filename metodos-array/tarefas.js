@@ -44,3 +44,11 @@ console.log(`A lista de tarefas inclui Ir à academia? ${tarefas.includes("Ir à
 console.log(`Antes do join`);
 console.table(tarefas);
 console.log("Lista de tarefas como String: ", tarefas.join(", "));
+
+/// Extraindo uma Parte da Lista
+
+console.log("Antes do splice");
+console.table(tarefas);
+console.log(`Parte da lista de tarefas (índices 2 a 4): ${tarefas.slice(2, 5)}`); // ['Lavar a louça', 'Comprar mercado', 'Ir à academia',]
+console.log("Depois do splice");
+console.table(tarefas);

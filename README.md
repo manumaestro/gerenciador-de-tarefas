@@ -23,3 +23,7 @@
 // Sexta etapa 
 
 ## Usando o método join e transformando a lista em string
+
+// Sétima etapa
+
+## Usando o método splice e extraindo parte da lista
