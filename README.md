@@ -35,3 +35,7 @@
 // Nona etapa
 
 ## Usando o método concat e criando uma nova lista com tarefas adicionais, juntando com a lista original
+
+// Décima etapa 
+
+## Usando o método map e transformando as Tarefas
