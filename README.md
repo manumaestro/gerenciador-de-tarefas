@@ -39,3 +39,7 @@
 // Décima etapa 
 
 ## Usando o método map e transformando as Tarefas
+
+// Décima primeira etapa
+
+## Usando o método filter e filtrando as tarefas
