@@ -26,3 +26,11 @@ tarefas.unshift("Fazer o almoço");
 console.log("Depois do unshift");
 console.table(tarefas);
 
+// Removendo a primeira tarefa 
+
+let primeiraTarefa = tarefas.shift();
+
+console.log("Depois do shift");
+console.table(tarefas);
+
+console.log("Tarefa removida: ", primeiraTarefa);

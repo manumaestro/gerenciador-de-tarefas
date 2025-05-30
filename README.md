@@ -11,3 +11,7 @@
 // Terceira etapa 
 
 ## Usando o método Unshift e adicionando uma nova tarefa no início da lista
+
+// Quarta etapa 
+
+## Usando o método Shift e removendo a primeira tarefa no ínicio da lista
