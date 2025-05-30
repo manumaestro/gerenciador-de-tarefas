@@ -9,3 +9,12 @@ tarefas.push("Jogar the last of us", "Fazer a janta");
 
 console.log("Depois do push");
 console.table(tarefas);
+
+// Removendo a última tarefa
+
+let tarefaRemovida = tarefas.pop();
+
+console.log("Depois do pop");
+console.table(tarefas);
+
+console.log("Tarefa removida: ", tarefaRemovida);
