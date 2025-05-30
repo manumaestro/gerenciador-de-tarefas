@@ -83,3 +83,8 @@ console.log("Tarefas transformadas: ", transformandoTarefa);
 console.log("Tarefas filtradas");
 let tarefasFiltradas = tarefas.filter(palavras => palavras.length > 15);
 console.log("Lista de tarefas filtrada (palavras com mais de 15 caracteres):", tarefasFiltradas);
+
+//  Ordenando as Tarefas
+
+let tarefasOrdenadas = tarefas.sort();
+console.log("Tarefas ordenada:", tarefasOrdenadas);

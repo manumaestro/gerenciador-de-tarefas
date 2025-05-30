@@ -43,3 +43,7 @@
 // Décima primeira etapa
 
 ## Usando o método filter e filtrando as tarefas
+
+// Décima segunda etapa 
+
+## Usando o método sort e ordenando as tarefas
